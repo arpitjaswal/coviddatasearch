@@ -1,7 +1,11 @@
 import requests
 import bs4
 
-import tkinter as tk
+#import tkinter as tk
+if sys.version_info[0] == 3:
+    import tkinter as tk
+else:
+    import Tkinter as tk
 
 # imported required libraries
 
